@@ -12,4 +12,4 @@ sudo pacman -S --noconfirm wireguard-tools
 sudo pacman -S --noconfirm go-yq
 sudo pacman -S --noconfirm jq
 sudo pacman -S --noconfirm yt-dlp
-sudo pacman -S --noconfirm gnome-disk-utilit
+sudo pacman -S --noconfirm gnome-disk-utility
