@@ -4,7 +4,7 @@
 check_distro() {
   if [ -f /etc/os-release ]; then
     . /etc/os-release
-    if [ "$ID" = "arch" ] || [ "$ID_LIKE" = "arch" ]; then
+    if [ "$ID" = "arch" || "$ID_LIKE" = "arch" ]; then
       echo "Error: This script must be run on Arch linux base distro. Current OS: $ID" >&2
       return 1
     fi
