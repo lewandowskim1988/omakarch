@@ -15,4 +15,5 @@ yay --answerclean All --answerdiff All --nocleanmenu --nodiffmenu --removemake -
   vcluster \
   kubecolor \
   google-cloud-cli \
-  kubectl-view-secret-bin
+  kubectl-view-secret-bin \
+  apache-tools

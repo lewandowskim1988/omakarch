@@ -6,7 +6,6 @@ sudo pacman -S --noconfirm \
   zoxide \
   plocate \
   btop \
-  apache-tools \
   fd \
   tldr \
   fastfetch \
