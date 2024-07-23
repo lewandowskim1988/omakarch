@@ -1,1 +1,1 @@
-yay --answerclean All --answerdiff All --nocleanmenu --nodiffmenu --removemake --cleanafter --noconfirm -S skypeforlinux-bin
+yay --answerclean All --answerdiff All --removemake --cleanafter --noconfirm -S skypeforlinux-bin

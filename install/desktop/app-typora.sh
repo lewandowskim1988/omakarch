@@ -1,4 +1,4 @@
-yay --answerclean All --answerdiff All --nocleanmenu --nodiffmenu --removemake --cleanafter --noconfirm -S typora
+yay --answerclean All --answerdiff All --removemake --cleanafter --noconfirm -S typora
 
 # Add iA Typora theme
 mkdir -p ~/.config/Typora/themes

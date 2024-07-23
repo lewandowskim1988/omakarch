@@ -1,1 +1,1 @@
-yay --answerclean All --answerdiff All --nocleanmenu --nodiffmenu --removemake --cleanafter --noconfirm -S trezor-suite-appimage
+yay --answerclean All --answerdiff All --removemake --cleanafter --noconfirm -S trezor-suite-appimage

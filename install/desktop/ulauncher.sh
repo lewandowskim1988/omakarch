@@ -1,4 +1,4 @@
-yay --answerclean All --answerdiff All --nocleanmenu --nodiffmenu --removemake --cleanafter --noconfirm -S ulauncher
+yay --answerclean All --answerdiff All --removemake --cleanafter --noconfirm -S ulauncher
 
 # Start ulauncher to have it populate config before we overwrite
 mkdir -p ~/.config/autostart/

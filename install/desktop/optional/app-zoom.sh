@@ -1,2 +1,2 @@
 # Make video calls using https://zoom.us/
-yay --answerclean All --answerdiff All --nocleanmenu --nodiffmenu --removemake --cleanafter --noconfirm -S zoom
+yay --answerclean All --answerdiff All --removemake --cleanafter --noconfirm -S zoom
