@@ -1,0 +1,8 @@
+# Autocompletion
+source /usr/share/bash-completion/bash_completion
+
+# Set complete path
+export PATH="./bin:$HOME/.local/bin:$HOME/.local/share/omakarch/bin:$PATH"
+set +h
+
+export OMAKARCH_PATH="/home/$USER/.local/share/omakarch"

@@ -1,0 +1,9 @@
+source ~/.local/share/omakarch/defaults/bash/rc
+
+# Editor used by CLI
+export EDITOR="nvim"
+export VISUAL="nvim"
+export SUDO_EDITOR="$EDITOR"
+
+# Git ask password helper
+export GIT_ASKPASS='~/.git-askpass-helper.sh'

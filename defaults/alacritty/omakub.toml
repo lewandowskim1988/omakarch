@@ -1,0 +1,5 @@
+import = [ "~/.local/share/omakarch/defaults/alacritty/pane.toml" ]
+
+[window]
+dimensions.columns = 90
+dimensions.lines = 30
