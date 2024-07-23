@@ -24,3 +24,5 @@ if [[ -d ~/.local/share/applications ]]; then
 	sudo rm -rf /usr/share/applications/nvim.desktop
 	source ~/.local/share/omakarch/applications/Neovim.sh
 fi
+
+sleep 2
