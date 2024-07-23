@@ -3,7 +3,7 @@ sudo pacman -S --noconfirm ripgrep
 sudo pacman -S --noconfirm bat
 sudo pacman -S --noconfirm eza
 sudo pacman -S --noconfirm zoxide
-sudo pacman -S --noconfirm plocate
+sudo pacman -Rs --noconfirm mlocate && sudo pacman -S --noconfirm plocate
 sudo pacman -S --noconfirm btop
 sudo pacman -S --noconfirm fd
 sudo pacman -S --noconfirm tldr
