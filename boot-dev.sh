@@ -12,7 +12,7 @@ echo -e "$ascii_art"
 echo "=> Omakarch is for fresh Arch base installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
-sudo pacman -Syu >/dev/null
+sudo pacman -Syu --noconfirm >/dev/null
 sudo pacman -S --noconfirm git >/dev/null
 
 echo "Cloning development Omakarch..."
