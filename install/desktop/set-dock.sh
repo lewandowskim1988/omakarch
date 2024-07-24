@@ -4,17 +4,17 @@ apps=(
 	"chromium.desktop"
 	"Alacritty.desktop"
 	"Neovim.desktop"
-	"code.desktop"
+	"code-oss.desktop"
 	"org.keepassxc.KeePassXC.desktop"
 	"WhatsApp.desktop"
 	"signal-desktop.desktop"
 	"deadbeef.desktop"
-	"pinta_pinta.desktop"
+	"pinta.desktop"
 	"Activity.desktop"
 	"Omakarch.desktop"
 	"org.gnome.Settings.desktop"
 	"org.gnome.Nautilus.desktop"
-	"localsend_app.desktop"
+	"localsend.desktop"
 )
 
 # Array to hold installed favorite apps
