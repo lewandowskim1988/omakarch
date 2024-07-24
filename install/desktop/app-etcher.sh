@@ -1,1 +1,1 @@
-yay --answerclean All --answerdiff All --removemake --cleanafter --noconfirm -S etcher-bin
+yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S etcher-bin

@@ -1,4 +1,4 @@
-yay --answerclean All --answerdiff All --removemake --cleanafter --noconfirm -S extension-manager gnome-extensions-cli
+yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S extension-manager gnome-extensions-cli
 
 # Turn off default Ubuntu extensions
 # gnome-extensions disable tiling-assistant@ubuntu.com
@@ -19,7 +19,7 @@ gext install Vitals@CoreCoding.com
 gext install AlphabeticalAppGrid@stuarthayhurst
 
 # Manually install Pano (until released version is Gnome 46 compatible)
-yay --answerclean All --answerdiff All --removemake --cleanafter --noconfirm -S gnome-shell-extension-pano
+yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S gnome-shell-extension-pano
 
 # Don't know what is it
 # sudo apt install -y gir1.2-gda-5.0 gir1.2-gsound-1.0
