@@ -19,7 +19,10 @@ gext install Vitals@CoreCoding.com
 gext install AlphabeticalAppGrid@stuarthayhurst
 
 # Manually install Pano (until released version is Gnome 46 compatible)
-yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S gnome-shell-extension-pano
+wget -O /tmp/pano.zip https://github.com/oae/gnome-shell-pano/releases/download/v23-alpha2/pano@elhan.io.zip
+mkdir -p ~/.local/share/gnome-shell/extensions/
+unzip /tmp/pano.zip -d ~/.local/share/gnome-shell/extensions/pano@elhan.io
+rm /tmp/pano.zip
 
 # Don't know what is it
 # sudo apt install -y gir1.2-gda-5.0 gir1.2-gsound-1.0
