@@ -3,7 +3,7 @@ cat <<EOF >~/.local/share/applications/Omakarch.desktop
 Version=1.0
 Name=Omakarch
 Comment=Omakarch Controls
-Exec=alacritty --config-file /home/$USER/.local/share/omakarch/defaults/alacritty/pane.toml -e omakarch
+Exec=alacritty --config-file /home/$USER/.local/share/omakarch/defaults/alacritty/pane.toml --class=Omakub --title=Omakub -e omakarch
 Terminal=false
 Type=Application
 Icon=/home/$USER/.local/share/omakarch/applications/icons/Omakarch.png

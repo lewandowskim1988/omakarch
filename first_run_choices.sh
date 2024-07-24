@@ -1,5 +1,5 @@
-OPTIONAL_APPS=("1password" "Spotify" "Zoom" "Dropbox")
-DEFAULT_OPTIONAL_APPS='1password,Spotify,Zoom'
+OPTIONAL_APPS=("1password" "Brave" "Obs-studio" "Skype" "Slack" "Spotify" "Steam" "Teams" "Virtualbox" "Zed" "Zoom")
+DEFAULT_OPTIONAL_APPS=''
 export OMAKARCH_FIRST_RUN_OPTIONAL_APPS=$(gum choose "${OPTIONAL_APPS[@]}" --no-limit --selected $DEFAULT_OPTIONAL_APPS --height 7 --header "Select optional apps" | tr ' ' '-')
 
 AVAILABLE_LANGUAGES=("Go" "Python" "Rust")

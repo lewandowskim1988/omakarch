@@ -10,7 +10,7 @@ alias cd='z'
 # Tools
 alias vim='nvim'
 alias docker='podman'
-alias bat='batcat'
+alias cat='bat'
 alias lzg='lazygit'
 alias k='kubectl'
 alias kx='kubectx'

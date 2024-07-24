@@ -1,11 +1,5 @@
 yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S extension-manager gnome-extensions-cli
 
-# Turn off default Ubuntu extensions
-# gnome-extensions disable tiling-assistant@ubuntu.com
-# gnome-extensions disable ubuntu-appindicators@ubuntu.com
-# gnome-extensions disable ubuntu-dock@ubuntu.com
-# gnome-extensions disable ding@rastersoft.com
-
 # Pause to assure user is ready to accept confirmations
 gum confirm "To install Gnome extensions, you need to accept some confirmations. Are you ready?"
 
@@ -21,9 +15,6 @@ gext install AlphabeticalAppGrid@stuarthayhurst
 # Manually install Pano (until released version is Gnome 46 compatible)
 yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S gnome-shell-extension-pano
 
-# Don't know what is it
-# sudo apt install -y gir1.2-gda-5.0 gir1.2-gsound-1.0
-
 # Compile gsettings schemas in order to be able to set them
 sudo cp ~/.local/share/gnome-shell/extensions/tactile@lundal.io/schemas/org.gnome.shell.extensions.tactile.gschema.xml /usr/share/glib-2.0/schemas/
 sudo cp ~/.local/share/gnome-shell/extensions/just-perfection-desktop\@just-perfection/schemas/org.gnome.shell.extensions.just-perfection.gschema.xml /usr/share/glib-2.0/schemas/
@@ -35,12 +26,12 @@ sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 
 # Configure Tactile
 gsettings set org.gnome.shell.extensions.tactile col-0 1
-gsettings set org.gnome.shell.extensions.tactile col-1 2
+gsettings set org.gnome.shell.extensions.tactile col-1 0
 gsettings set org.gnome.shell.extensions.tactile col-2 1
 gsettings set org.gnome.shell.extensions.tactile col-3 0
 gsettings set org.gnome.shell.extensions.tactile row-0 1
 gsettings set org.gnome.shell.extensions.tactile row-1 1
-gsettings set org.gnome.shell.extensions.tactile gap-size 32
+gsettings set org.gnome.shell.extensions.tactile gap-size 0
 
 # Configure Just Perfection
 gsettings set org.gnome.shell.extensions.just-perfection animation 2

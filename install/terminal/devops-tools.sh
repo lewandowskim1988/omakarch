@@ -12,7 +12,7 @@ sudo pacman -S --noconfirm \
 
 yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S \
   google-cloud-cli-gke-gcloud-auth-plugin \
-    kubecolor \
+  kubecolor \
   google-cloud-cli \
   kubectl-view-secret-bin \
   apache-tools

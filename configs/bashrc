@@ -7,3 +7,12 @@ export SUDO_EDITOR="$EDITOR"
 
 # Git ask password helper
 export GIT_ASKPASS='~/.git-askpass-helper.sh'
+
+source <(kubectl completion bash)
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+eval "$(starship init bash)"
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+eval "$(atuin init bash)"

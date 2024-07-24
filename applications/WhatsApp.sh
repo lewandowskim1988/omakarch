@@ -3,7 +3,7 @@ cat <<EOF >~/.local/share/applications/WhatsApp.desktop
 Version=1.0
 Name=WhatsApp
 Comment=WhatsApp Messenger
-Exec=chromium --app="https://web.whatsapp.com" --name=WhatsApp
+Exec=chromium --app="https://web.whatsapp.com" --name=WhatsApp --class=Whatsapp
 Terminal=false
 Type=Application
 Icon=/home/$USER/.local/share/omakarch/applications/icons/WhatsApp.png
