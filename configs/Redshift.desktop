@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Redshift
-Comment=Adjusts the color temperature of your screen
-GenericName=Redshift
-Categories=GNOME;GTK;Utility;
-Exec=/usr/bin/redshift
-Terminal=false
-Type=Application
-X-GNOME-Autostart-enabled=true
