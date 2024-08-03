@@ -15,7 +15,7 @@ echo "=> Omakarch is for fresh Arch base installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
 sudo pacman -Syu >/dev/null
-sudo pacman -S --noconfirm git >/dev/null
+sudo pacman -S --noconfirm git wget ibus python-tqdm >/dev/null
 
 echo "Cloning stable Omakarch..."
 rm -rf ~/.local/share/omakarch
