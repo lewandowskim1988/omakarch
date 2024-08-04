@@ -16,6 +16,7 @@
   },
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   "git.confirmSync": false,
   "window.menuBarVisibility": "compact",
   "git.autofetch": true,

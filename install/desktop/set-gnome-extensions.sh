@@ -76,3 +76,6 @@ gsettings set org.gnome.shell.extensions.vitals network-speed-format 1
 
 # Configure AlphabeticalAppGrid
 gsettings set org.gnome.shell.extensions.alphabetical-app-grid folder-order-position 'end'
+
+# Configure night light
+gsettings set org.gnome.settings-daemon.plugins.color night-light-temperature 3100
