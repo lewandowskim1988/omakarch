@@ -26,5 +26,6 @@
   "workbench.colorTheme": "Tokyo Night",
   "window.titleBarStyle": "custom",
   "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
-  "terminal.external.linuxExec": "alacritty"
+  "terminal.external.linuxExec": "alacritty",
+  "window.zoomLevel": 0.65
 }
