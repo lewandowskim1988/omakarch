@@ -24,5 +24,7 @@
   "explorer.confirmDelete": false,
   "extensions.ignoreRecommendations": true,
   "workbench.colorTheme": "Tokyo Night",
-  "window.titleBarStyle": "custom"
+  "window.titleBarStyle": "custom",
+  "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+  "terminal.external.linuxExec": "alacritty"
 }
