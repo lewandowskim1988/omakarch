@@ -6,3 +6,8 @@ cp ~/.local/share/omakarch/configs/vscode-keybindings.json ~/.config/Code\ -\ OS
 
 # Install default supported themes
 code --install-extension enkia.tokyo-night
+
+# Install extra extensions
+code --install-extension 4ops.terraform
+code --install-extension oderwat.indent-rainbow
+code --install-extension aswinkumar863.smarty-template-support
