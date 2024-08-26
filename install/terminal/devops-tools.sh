@@ -16,3 +16,7 @@ yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -
   google-cloud-cli \
   kubectl-view-secret-bin \
   apache-tools
+
+sudo usermod -a -G libvirt $(whoami)
+sudo systemctl start libvirtd.service
+sudo systemctl enable libvirtd.service
