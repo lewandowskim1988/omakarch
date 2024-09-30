@@ -11,3 +11,4 @@ code --install-extension enkia.tokyo-night
 code --install-extension 4ops.terraform
 code --install-extension oderwat.indent-rainbow
 code --install-extension aswinkumar863.smarty-template-support
+code --install-extension streetsidesoftware.code-spell-checker
