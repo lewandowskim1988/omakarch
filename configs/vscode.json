@@ -19,7 +19,7 @@
   "files.autoSaveDelay": 1000,
   "git.confirmSync": false,
   "window.menuBarVisibility": "compact",
-  "git.autofetch": true,
+  "git.autofetch": false,
   "git.openRepositoryInParentFolders": "always",
   "explorer.confirmDelete": false,
   "extensions.ignoreRecommendations": true,
