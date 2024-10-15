@@ -15,7 +15,6 @@ alias k='kubectl'
 alias kx='kubectx'
 alias kn='kubens'
 alias aws='docker run --rm -it -v ~/.aws:/root/.aws public.ecr.aws/aws-cli/aws-cli'
-alias rust='docker run --rm -it -v $(pwd):/app --workdir /app --user 1000:1000 docker.io/library/rust:1.81.0-slim-bullseye'
 
 # Git
 alias gcm='git commit -m'
