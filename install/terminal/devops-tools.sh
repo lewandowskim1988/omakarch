@@ -8,7 +8,8 @@ sudo pacman -S --noconfirm \
   podman-compose \
   kubectl \
   helm \
-  kubectx
+  kubectx \
+  trippy
 
 yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S \
   google-cloud-cli-gke-gcloud-auth-plugin \
