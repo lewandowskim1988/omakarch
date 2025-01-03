@@ -14,7 +14,6 @@ alias lzg='lazygit'
 alias k='kubectl'
 alias kx='kubectx'
 alias kn='kubens'
-alias aws='docker run --rm -it -v ~/.aws:/root/.aws public.ecr.aws/aws-cli/aws-cli'
 
 # Git
 alias gcm='git commit -m'

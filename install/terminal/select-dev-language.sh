@@ -10,10 +10,10 @@ if [[ -n "$languages" ]]; then
 	for language in $languages; do
 		case $language in
 		Go)
-			mise use --global go@latest
+			sudo pacman -S --noconfirm go
 			;;
 		Python)
-			mise use --global python@latest
+			sudo pacman -S --noconfirm python
 			;;
 		Rust)
 			sudo pacman -S --noconfirm rustup
