@@ -13,7 +13,7 @@ gext install Vitals@CoreCoding.com
 gext install AlphabeticalAppGrid@stuarthayhurst
 
 # Manually install Pano (until released version is Gnome 46 compatible)
-yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S gnome-shell-extension-pano
+yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S gnome-shell-extension-pano-bin
 
 # Compile gsettings schemas in order to be able to set them
 sudo cp ~/.local/share/gnome-shell/extensions/tactile@lundal.io/schemas/org.gnome.shell.extensions.tactile.gschema.xml /usr/share/glib-2.0/schemas/
