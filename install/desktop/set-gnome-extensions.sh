@@ -62,11 +62,11 @@ gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-move-to-work
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
 
 # Configure Pano
-gsettings set org.gnome.shell.extensions.pano play-audio-on-copy false
-gsettings set org.gnome.shell.extensions.pano send-notification-on-copy false
-gsettings set org.gnome.shell.extensions.pano window-position 2
-gsettings set org.gnome.shell.extensions.pano history-length 30
-gsettings set org.gnome.shell.extensions.pano.text-item body-bg-color 'rgb(153,193,241)'
+# gsettings set org.gnome.shell.extensions.pano play-audio-on-copy false
+# gsettings set org.gnome.shell.extensions.pano send-notification-on-copy false
+# gsettings set org.gnome.shell.extensions.pano window-position 2
+# gsettings set org.gnome.shell.extensions.pano history-length 30
+# gsettings set org.gnome.shell.extensions.pano.text-item body-bg-color 'rgb(153,193,241)'
 
 # Configure Vitals
 gsettings set org.gnome.shell.extensions.vitals hide-icons true
