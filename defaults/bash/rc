@@ -1,4 +1,5 @@
 source ~/.local/share/omakarch/defaults/bash/shell
 source ~/.local/share/omakarch/defaults/bash/aliases
+source ~/.local/share/omakarch/defaults/bash/functions
 source ~/.local/share/omakarch/defaults/bash/prompt
 source ~/.local/share/omakarch/defaults/bash/init

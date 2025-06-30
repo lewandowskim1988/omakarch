@@ -1,1 +1,5 @@
 include "%H/.local/share/omakarch/defaults/xcompose"
+
+# Identification
+<Multi_key> <space> <n> : "$OMAKARCH_USER_NAME"
+<Multi_key> <space> <e> : "$OMAKARCH_USER_EMAIL"

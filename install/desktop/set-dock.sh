@@ -10,6 +10,7 @@ apps=(
 	"signal-desktop.desktop"
 	"deadbeef.desktop"
 	"pinta.desktop"
+	"md.obsidian.Obsidian.desktop"
 	"Activity.desktop"
 	"Omakarch.desktop"
 	"org.gnome.Settings.desktop"

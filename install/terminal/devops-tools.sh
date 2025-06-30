@@ -9,7 +9,9 @@ sudo pacman -S --noconfirm \
   kubectl \
   helm \
   kubectx \
-  trippy
+  trippy \
+  crane \
+  aws-cli
 
 yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S \
   google-cloud-cli-gke-gcloud-auth-plugin \
