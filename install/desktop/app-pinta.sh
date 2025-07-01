@@ -1,1 +1,1 @@
-sudo pacman -S --noconfirm pinta
+yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S pinta
