@@ -10,4 +10,3 @@ Icon=/home/$USER/.local/share/omakarch/applications/icons/Omakarch.png
 Categories=GTK;
 StartupNotify=false
 EOF
-;
