@@ -1,1 +1,1 @@
-yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S onlyoffice-bin
+# yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S onlyoffice-bin
