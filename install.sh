@@ -5,7 +5,7 @@ set -e
 trap 'echo "Omakarch installation failed! You can retry by running: source ~/.local/share/omakarch/install.sh"' ERR
 
 # Check the distribution name and version and abort if incompatible
-source ~/.local/share/omakarch/check-version.sh
+source ~/.local/share/omakarch/install/check-version.sh
 
 # Ask for app choices
 echo "Get ready to make a few choices..."
