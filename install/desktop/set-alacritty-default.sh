@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Make alacritty default terminal emulator
-# gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/alacritty
+gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/alacritty
 
 # Adding alacritty to nautilus contextual menu requires the python wrapper for the libraries
 sudo pacman -S --noconfirm nautilus-python
