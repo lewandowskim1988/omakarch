@@ -1,1 +1,1 @@
-yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S trezor-suite-appimage
+yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S trezor-suite-bin
