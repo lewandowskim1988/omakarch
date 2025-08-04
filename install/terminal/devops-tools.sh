@@ -22,3 +22,6 @@ yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -
 
 # Make symlink for podman/docker since some applications like make are not able to read alias
 sudo ln -sf /usr/bin/podman /usr/local/bin/docker
+
+# Install helm plugin
+helm plugin install https://github.com/nikhilsbhat/helm-images
