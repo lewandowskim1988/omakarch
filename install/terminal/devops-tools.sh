@@ -11,14 +11,15 @@ sudo pacman -S --noconfirm \
   kubectx \
   trippy \
   crane \
-  aws-cli
+  aws-cli-v2
 
 yay --answerclean None --answerdiff None --removemake --cleanafter --noconfirm -S \
   google-cloud-cli-gke-gcloud-auth-plugin \
   kubecolor \
   google-cloud-cli \
   kubectl-view-secret-bin \
-  apache-tools
+  apache-tools \
+  kor
 
 # Make symlink for podman/docker since some applications like make are not able to read alias
 sudo ln -sf /usr/bin/podman /usr/local/bin/docker
