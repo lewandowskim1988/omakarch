@@ -12,5 +12,5 @@ code --install-extension 4ops.terraform
 code --install-extension oderwat.indent-rainbow
 code --install-extension aswinkumar863.smarty-template-support
 code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension block.vscode-mcp-extension
+code --install-extension ms-vscode-remote.remote-ssh
 # code --install-extension Continue.continue
